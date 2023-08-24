@@ -17,8 +17,8 @@ const Navbar = () => {
       </a>
       <div>
         <button
-          className="bg-blue-600 px-3 py-2 leading-tight text-white rounded-full 
-        font-light hover:bg-blue-700"
+          className="bg-green-600 px-3 py-2 leading-tight text-white rounded-full 
+        font-light hover:bg-green-700"
         >
           Connect Wallet
         </button>
