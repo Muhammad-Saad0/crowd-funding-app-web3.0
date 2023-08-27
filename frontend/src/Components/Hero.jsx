@@ -1,4 +1,5 @@
 import React from "react";
+import { setGlobalState } from "../store";
 
 const Hero = () => {
   return (
@@ -20,6 +21,9 @@ const Hero = () => {
         <button
           className="bg-green-700 px-3 py-2 leading-tight text-white rounded-full
         hover:bg-green-800"
+          onClick={() => {
+            setGlobalState("createModal", "scale-100");
+          }}
         >
           ADD PROJECTS
         </button>

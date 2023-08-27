@@ -60,7 +60,7 @@ const ProjectCard = ({ id }) => {
             />
           </div>
           <div
-            className="flex flex-row items-center 
+            className="flex flex-row items-center
         mt-1 justify-between"
           >
             <small className="font-semibold text-gray-700">
